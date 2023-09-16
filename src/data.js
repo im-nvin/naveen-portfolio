@@ -1,4 +1,3 @@
-import shoesweb from './images/shoesweb.png'
 import devbook from './images/devbook.png'
 import netflix from './images/netflix.png'
 import ecommerec from './images/ecommerec.jpg'
