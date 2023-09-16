@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import Me from "../../images/naveen.png"
+import Me from "../../images/naveen-removebg-preview.png"
 export const Intro = () => {
     return (
         <div className="i">
@@ -11,14 +11,14 @@ export const Intro = () => {
                     <div className="i-title">
                         {/* i-title-wrapper for some animation */}
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Web Developer</div>
                             <div className="i-title-item">Front-End Developer</div>
                             <div className="i-title-item">Backend-developer</div>
                             <div className="i-title-item">UI/UX Designer</div>
+                            <div className="i-title-item">Web Developer</div>
                         </div>
                     </div>
                     <p className="i-description">
-                        As a Web developer, I am passionate about creating beautiful, intuitive user interfaces that provide exceptional user experience. I have a strong understanding of Html, css , Bootstrap, javascript, react, node, mongoDB, express.js .
+                        As a MERN stack web developer, I am passionate about creating beautiful and intuitive user interfaces that deliver exceptional user experiences. I possess a strong command of <i>HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, REACT.JS, NODE.JS, MONGODB, EXPRESS.JS.</i>
                     </p>
                 </div>
             </div>

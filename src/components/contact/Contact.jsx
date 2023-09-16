@@ -1,7 +1,6 @@
 import React from 'react'
 import './contact.css'
-import Phone from '../../images/phone.png'
-import Mail from '../../images/mail.jpg'
+import Mail from '../../images/email.png'
 import Address from '../../images/address.png'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
@@ -39,7 +38,7 @@ const Contact = () => {
                     </div>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={Phone} className='c-icon' />
+                            <img src="https://www.pngkit.com/png/full/808-8088413_pin-phone-icon-blue-1png-on-pinterest-telephone.png" className='c-icon' />
                             +91-9818287934
                         </div>
                         <div className="c-info-item">
@@ -57,12 +56,12 @@ const Contact = () => {
                         Get in touch anytime.Always available for freelancing
                     </p>
                     <form ref={formRef} onSubmit={HandleSubmit}>
-                        <input style={{ backgroundColor: darkMode && '#333' ,color: darkMode && 'white' }} type='text' placeholder='Name' name='User_name' />
+                        <input style={{ backgroundColor: darkMode && '#333', color: darkMode && 'white' }} type='text' placeholder='Name' name='User_name' />
                         <input style={{ backgroundColor: darkMode && '#333', color: darkMode && 'white' }} type='text' placeholder='Subject' name='User_subject' />
-                        <input style={{ backgroundColor: darkMode && '#333',color: darkMode && 'white' }} type='email' placeholder='Email' name='User_email' />
-                        <textarea style={{ backgroundColor: darkMode && '#333',color: darkMode && 'white'}} rows="5" placeholder='Message' name='message' />
+                        <input style={{ backgroundColor: darkMode && '#333', color: darkMode && 'white' }} type='email' placeholder='Email' name='User_email' />
+                        <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && 'white' }} rows="5" placeholder='Message' name='message' />
                         <button>submit</button>
-                        {Done && "Thank You"}
+                        {Done && <span className="thank-you"><br />Message sent Successfully! We appreciate your communication.</span>}
                     </form>
                 </div>
             </div>

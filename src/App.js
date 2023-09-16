@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Toggle from './components/toggle/Toggle'
 import { useContext } from 'react';
 import { ThemeContext } from './Context';
+import Certifications from './components/certifications/Certifications';
 
 function App() {
   const theme = useContext(ThemeContext)
@@ -17,6 +18,7 @@ function App() {
       <Intro />
       <About />
       <ProductList />
+      <Certifications />
       <Contact />
     </div>
   );

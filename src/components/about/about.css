@@ -1,10 +1,10 @@
-.a{
+.a {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.a-left{
+.a-left {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -13,17 +13,18 @@
     height: 100%;
 }
 
-.a-right{
+.a-right {
     flex: 1;
 }
-.a-card.bg{
+
+.a-card.bg {
     position: absolute;
     top: 50px;
     left: 50px;
     background-color: #333;
 }
 
-.a-card{
+.a-card {
     width: 60%;
     height: 70vh;
     border-radius: 30px;
@@ -31,40 +32,100 @@
     overflow: hidden;
 }
 
-.a-img{
+.a-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.a-title{
-    font-weight: 400;
-}
+.a-title {
+    font-size: 50px;
+    font-weight: 600;
+text-align: center;}
 
-.a-sub{
+.a-sub {
     margin: 20px 0;
 }
 
-.a-desc{
+.a-desc {
     font-weight: 300;
 }
 
+.btn-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Button background color */
+    color: #fff;
+    /* Text color */
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resume-button {
+    background-color: rgb(253, 165, 3);
+
+}
+
+a {
+    color: inherit;
+    /* Inherit text color from the button */
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    background-color: #e39f00;
+    /* Button background color on hover */
+}
+
+.linkedin-btn {
+    background-color: #0077B5;
+}
+
+.linkedin-btn:hover {
+    background-color: #046599;
+}
+
+.github-btn {
+    background-color: #181717;
+}
+
+.github-btn:hover {
+    background-color: #2c2b2b;
+}
+
 @media screen and (max-width:480px) {
-    .a{
+    .a {
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
     }
-    .a-left{
+
+    .a-left {
         width: 100%;
     }
-    .a-card.bg{
+
+    .a-card.bg {
         display: none;
     }
-    .a-card{
+
+    .a-card {
         height: 30vh;
     }
-    .a-right{
+
+    .a-right {
         padding: 20px;
     }
 }

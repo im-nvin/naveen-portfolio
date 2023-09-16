@@ -1,23 +1,19 @@
-import React from 'react'
-import "./productList.css"
-import Product from "../product/Product"
+import React from 'react';
+import './productList.css';
+import Product from '../product/Product';
+import { products } from '../../data';
 
 export const ProductList = () => {
     return (
         <div className='pl'>
             <div className="pl-texts">
-                <h1 className="pl-title">create & Inspire</h1>
-                <p className="pl-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe earum ullam sequi, quidem id iste voluptatum eveniet exercitationem, quo et, expedita quisquam.</p>
+                <h1 className="pl-title">PROJECTS</h1>
             </div>
             <div className="pl-list">
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
+                {products.map((item) => (
+                    <Product key={item.id} img={item.img} link={item.link} />
+                ))}
             </div>
-
         </div>
-    )
-}
+    );
+};
