@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.baad542f.css",
+    "main.js": "/static/js/main.663fcd07.js",
+    "static/js/787.3bcebcb8.chunk.js": "/static/js/787.3bcebcb8.chunk.js",
+    "static/media/netflix.png": "/static/media/netflix.4065797779cf77863942.png",
+    "static/media/ecommerec.jpg": "/static/media/ecommerec.d509305fdaed8a6dce9a.jpg",
+    "static/media/ttt.jpg": "/static/media/ttt.6e1a9b5fae1751fa5d17.jpg",
+    "static/media/devbook.png": "/static/media/devbook.41738d5c9e1a6e7fe08b.png",
+    "static/media/resume.pdf": "/static/media/resume.9795fafc5a75c53caf62.pdf",
+    "static/media/adminpanel.png": "/static/media/adminpanel.b163c6c3e1a967f94d0e.png",
+    "static/media/naveen-removebg-preview.png": "/static/media/naveen-removebg-preview.1632bc0fd01286aa98a3.png",
+    "static/media/freecodecamp.png": "/static/media/freecodecamp.bcb7197e532c377a8b1a.png",
+    "static/media/nvinblac.jpg": "/static/media/nvinblac.706210b91aaa4238a432.jpg",
+    "static/media/address.png": "/static/media/address.a12bcac1b019fa9517ba.png",
+    "static/media/bmicalc.png": "/static/media/bmicalc.865ae4b65a18ee313a0c.png",
+    "static/media/email.png": "/static/media/email.4c64fedd7b804fbd56e6.png",
+    "static/media/moon.jfif": "/static/media/moon.98763d90bb38cb840fe2.jfif",
+    "index.html": "/index.html",
+    "main.baad542f.css.map": "/static/css/main.baad542f.css.map",
+    "main.663fcd07.js.map": "/static/js/main.663fcd07.js.map",
+    "787.3bcebcb8.chunk.js.map": "/static/js/787.3bcebcb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baad542f.css",
+    "static/js/main.663fcd07.js"
+  ]
+}
